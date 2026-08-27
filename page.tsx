@@ -29,56 +29,56 @@ function safeFilePart(value: string, fallback: string) {
 const rakhiOptions = [
   {
     id: "traditional",
-    image: "/rakhi/om-rakhi.jpg",
+    image: "/om-rakhi.jpg",
     name: "🕉️ Traditional Rakhi",
     emoji: "🕉️",
     color: "#770615",
   },
   {
     id: "love",
-    image: "/rakhi/love-rakhi.jpg",
+    image: "/love-rakhi.jpg",
     name: "❤️ Love & Bond Rakhi",
     emoji: "❤️",
     color: "#C94C5A",
   },
   {
     id: "diamond-heart",
-    image: "/rakhi/diamond-rakhi.jpg",
+    image: "/diamond-rakhi.jpg",
     name: "💎 Diamond Heart Rakhi",
     emoji: "💎",
     color: "#1248fb",
   },
   {
     id: "krishna-radha",
-    image: "/rakhi/radha-rakhi.jpg",
+    image: "/radha-rakhi.jpg",
     name: "🦚 Krishna–Radha Rakhi",
     emoji: "🦚",
     color: "#087c13",
   },
   {
     id: "cute-teddy",
-    image: "/rakhi/teddy-rakhi.jpg",
+    image: "/teddy-rakhi.jpg",
     name: "🧸 Cute Teddy Rakhi",
     emoji: "🧸",
     color: "#ef0a3f",
   },
   {
     id: "swastik",
-    image: "/rakhi/swastik-rakhi.jpg",
+    image: "/swastik-rakhi.jpg",
     name: "🌸 Shubh Swastik Rakhi",
     emoji: "🌸",
     color: "#B68A35",
   },
   {
     id: "elegant-silver",
-    image: "/rakhi/silver-rakhi.jpg",
+    image: "/silver-rakhi.jpg",
     name: "❄️ Silver Rakhi",
     emoji: "❄️",
     color: "#ea1853",
   },
   {
     id: "kids-space",
-    image: "/rakhi/kids-space-rakhi.jpg",
+    image: "/kids-space-rakhi.jpg",
     name: "🚀 Little Explorer Rakhi",
     emoji: "🚀",
     color: "#12a1f4",
@@ -338,8 +338,8 @@ export default function Home() {
         }}
       >
         {/* Supports both filenames used during the project. */}
-        <source src="/audio/bhaiya_mere.mp3" type="audio/mpeg" />
-        <source src="/audio/dil_ki_dori_raksha_ban.mp3" type="audio/mpeg" />
+        <source src="/bhaiya_mere.mp3" type="audio/mpeg" />
+        <source src="/dil_ki_dori_raksha_ban.mp3" type="audio/mpeg" />
       </audio>
       <main className="min-h-screen overflow-x-hidden bg-gradient-to-br from-[#f9d2c4] via-[#e7a1a2] to-[#b95f75] pb-4 text-[#332521]">
         <AnimatePresence mode="wait">
